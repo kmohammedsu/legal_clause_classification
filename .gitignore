@@ -19,7 +19,10 @@ env/
 *.swo
 *~
 
+# CUAD dataset (cloned by scripts/00_download_cuad.py when needed)
+cuad/
+
 # Optional: uncomment if you don't want to track large files
 # *.h5
 # *.keras
-# cuad/data.zip
+# data.zip
