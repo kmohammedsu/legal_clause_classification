@@ -57,6 +57,7 @@ project_root/
 ├── Models/                      # Saved Keras models (.h5)
 ├── Visualizations/              # Saved figures (.png)
 ├── PROJECT_DOCUMENTATION.md     # Code walkthrough and rationale
+├── requirements.txt            # Python dependencies
 ├── Group Project-2 Final Report.pdf
 └── README.md
 ```
@@ -84,7 +85,7 @@ Execute in this order (script 0 optional if you run notebook 2 first; notebook 2
 2. **Create an environment and install dependencies:**
 
    ```bash
-   pip install pandas numpy scikit-learn tensorflow nltk matplotlib seaborn joblib
+   pip install -r requirements.txt
    ```
 
 3. **Download NLTK data** (once, in Python):
@@ -129,7 +130,8 @@ The feedforward model slightly outperforms the LSTM on this setup. For methodolo
 
 ---
 
-## License and data use
+## Reuse and license
 
-- **Code** in this repository is for course and portfolio use.
+**You are welcome to reuse this code.** The scripts, notebooks, and pipeline are provided for learning, research, and portfolio use. If you use or adapt this work, we ask that you credit the project and authors (see **Authors & Acknowledgments** above). No formal license restriction is placed on the code; use it as you like and build on it.
+
 - **CUAD** is used under the terms of [The Atticus Project / CUAD](https://github.com/TheAtticusProject/cuad). Please cite the CUAD paper (Hendrycks et al., 2021) and refer to their repository for licensing details.
