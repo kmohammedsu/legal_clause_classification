@@ -26,5 +26,7 @@ cuad/
 Models/
 *.h5
 *.keras
-data/processed/
+*.npy
+*.pkl
+*.joblib
 

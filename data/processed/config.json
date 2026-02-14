@@ -1,0 +1,29 @@
+{
+  "num_classes": 10,
+  "max_sequence_length": 138,
+  "vocab_size": 9833,
+  "reverse_label_mapping": {
+    "0": "Agreement Date",
+    "1": "Anti-Assignment",
+    "2": "Audit Rights",
+    "3": "Cap On Liability",
+    "4": "Expiration Date",
+    "5": "Governing Law",
+    "6": "Insurance",
+    "7": "License Grant",
+    "8": "Other",
+    "9": "Parties"
+  },
+  "class_weights": {
+    "0": 2.5453917050691244,
+    "1": 1.799185667752443,
+    "2": 1.7451816745655608,
+    "3": 2.0269724770642203,
+    "4": 2.6619277108433734,
+    "5": 2.4386313465783664,
+    "6": 2.0085454545454544,
+    "7": 1.6788753799392098,
+    "8": 0.2137577399380805,
+    "9": 0.7005072923272035
+  }
+}
